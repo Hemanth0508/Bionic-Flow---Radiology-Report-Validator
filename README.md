@@ -521,6 +521,25 @@ Sign Off
 The objective is not merely to generate a report.
 The objective is to make important discrepancies visible before sign-off.
 
+## AI Tools Used
+
+ChatGPT was used as an AI-assisted development tool during the implementation of this prototype.
+
+It was used to assist with:
+- React and TypeScript development
+- Debugging and troubleshooting
+- Reviewing validation logic and edge cases
+- UI implementation and refinement
+- Documentation and README preparation
+
+The deployed application itself does **not** use an external LLM or AI API at runtime. 
+The current prototype uses deterministic rules for report generation and validation.
+
+This separation was intentional: the validation layer remains independent and treats the 
+original dictation as the source of truth. In a production system, a clinical language 
+model could be introduced into the generation layer while retaining deterministic 
+validation and human sign-off safeguards.
+
 ## Project Status
 
 **Status: Prototype / Demonstration**
