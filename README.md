@@ -11,6 +11,8 @@ The core principle is simple:
 The system is designed to make potentially important inconsistencies visible before a report is signed off.
 
 ---
+### Link to the Screen Recording: https://drive.google.com/drive/folders/1t3wH7OQOC4S4vG7YWMvkyYXvc05WPk0E?usp=sharing
+---
 
 ## Overview
 
